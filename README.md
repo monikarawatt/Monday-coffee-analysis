@@ -65,8 +65,8 @@ Total sales: 1464
 
  ## SQL Queries
 All SQL queries used for this analysis are available in the file:
-(monday_coffee_analysis.sql)
-[monnday_coffee_analysis.sql]
+[monday_coffee_analysis.sql]
+(monnday_coffee_analysis.sql)
 ## Tools Used
 - MySQL
 - MySQL Workbench
