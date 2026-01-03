@@ -16,13 +16,14 @@ The analysis is based on the following tables:
 - sales
 - products
 - city
-
 These tables contain information about customer details, sales transactions, product pricing, and city-level population data.
+
+ ## Key Questions
 
  -- Q1 Coffee consumers count
  -- How many people in each city are estimated to consume coffee, given that 25% of the population
 
-  -- Q2 Total Revenue from coffee sale(2023)
+ -- Q2 Total Revenue from coffee sale(2023)
  -- What is the total revenue generated from coffee sales across all cities in last quarter of 2023
 
  -- Q3 Sales count for each product
@@ -37,13 +38,19 @@ These tables contain information about customer details, sales transactions, pro
  -- Q6 Top selling products
  -- What are the top 3 selling products in each city based on the sales volume
 
-  -- Q7 Customer Segmentation by city
- -- How many unique customer sare in each city who hav epurchase coffee products
+ -- Q7 Monthly Growth Rate
+ -- Sales growth rate: calculate the percentage growth( or decline) in sales over different time period(monthly)
 
- 
- 
+ -- Q8 Impact of estimated rent on sales
+ -- Find each city and their average sale per customer and average rent per customer
 
-##  Top 3 Cities Recommendation 
+ -- Q9 Customer Segmentation by city
+ -- How many unique customer are there in each city who have purchase coffee product
+
+ -- Q10 Market Potential analysis
+ -- Identify top 3 city based on highest sales, return city name, toal sales, total rent, total customer, estimated coffee consume
+
+ ##  Top 3 Cities Recommendation 
 
 ## PUNE
   Highest total sales: 2135 (Top among all cities)
@@ -62,11 +69,7 @@ Total sales: 1464
  Customers: 39
  Estimated coffee consumers: 30,75,000 (very high)
  Highest rent: 43,48,000
-
- ## SQL Queries
-All SQL queries used for this analysis are available in the file:
-[monday_coffee_analysis.sql]
-(monnday_coffee_analysis.sql)
+ 
 ## Tools Used
 - MySQL
 - MySQL Workbench
